@@ -1,4 +1,5 @@
 const mysqlConnection = require('../lib/database');
+const { Client } = require('pg')
 
 class PostService{ 
 
